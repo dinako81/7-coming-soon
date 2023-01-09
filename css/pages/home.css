@@ -6,9 +6,27 @@
 
 /* CUSTUM STYLE BELOW THIS COMMENT LINE*/
 
-section.container {
+
+/* hero */
+.hero {
     padding-bottom: 30px;
 }
+.hero > .short-row {
+    display: flex;
+}
+
+.logo {
+    object-fit: contain;
+    object-position: center;
+    width: 100%s;
+    height: 40px;
+}
+
+
+/* main */
+
+
+/* footer */
 
 footer.container {
 padding-top: 0;
