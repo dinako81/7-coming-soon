@@ -9,3 +9,8 @@
 section.container {
     padding-bottom: 30px;
 }
+
+footer.container {
+padding-top: 0;
+
+}
