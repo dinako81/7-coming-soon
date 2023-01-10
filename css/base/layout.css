@@ -19,12 +19,10 @@
 
 }
 
-.container > .columns > .column {
-   
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   width: 50%;
+.container > .short-row {
+    width: 600px;
+    background-color: aqua;
+    margin-left: calc(50% - 300px);
 }
 
 .container > .columns > .rigth-column {
