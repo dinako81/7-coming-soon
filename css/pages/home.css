@@ -10,9 +10,16 @@
 /* hero */
 .hero {
     padding-bottom: 30px;
+    min-height: 100vh;
+    background-image: url(../../img/background.png);
+    background-position: center;
 }
 .hero > .short-row {
     display: flex;
+    flex-direction: column;
+    object-position: center;
+    gap: 30px;
+    text-align: center;
 }
 
 .logo {
@@ -22,6 +29,15 @@
     height: 40px;
 }
 
+.main-title {
+font-size: 60px;
+text-transform: uppercase;
+letter-spacing: -4px;
+}
+
+.main-description {
+    font-size: 18px ;
+}
 
 /* main */
 
