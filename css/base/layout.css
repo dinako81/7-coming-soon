@@ -9,7 +9,20 @@
     margin-left: calc(50% - 500px);
 
 }
+.container > .colums {
+    display: flex;
+    justify-content: ;
 
+}
+.container > .row > column {
+    width: 50% ;
+    float: left;
+}
+
+.container > .row > .rigth-column {
+    width: 40%;
+    float: right;
+}
 .container > .short-row {
     width: 600px;
     background-color: aqua;
