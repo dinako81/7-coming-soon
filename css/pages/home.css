@@ -6,9 +6,9 @@
 /* components */
 @import '../components/clock.css';
 @import '../components/mouse.css';
+@import '../components/progress-bar.css';
 
 /* CUSTUM STYLE BELOW THIS COMMENT LINE*/
-
 
 /* hero */
 .hero {
@@ -18,13 +18,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 
 .hero > .short-row {
     display: flex;
     flex-direction: column;
-    object-position: center;
     gap: 30px;
     text-align: center;
 }
@@ -33,7 +33,7 @@
     object-fit: contain;
     object-position: center;
     width: 100%s;
-    height:20px;
+    height:40px;
 }
 
 .main-title {
