@@ -4,7 +4,6 @@
 }
 .container > .short-row {
     width: 600px;
-    background-color: aqua;
     margin-left: calc(50% - 300px);
 }
 .container > .row {
@@ -48,7 +47,7 @@
 }
     
 @media(max-width: 640px) {
-    .container{
+    .container {
     padding-left: 20px;
     padding-right: 20px;
     }
