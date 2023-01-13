@@ -13,8 +13,8 @@
 
 /* hero */
 .hero {
-    padding-bottom: 30px;
     min-height: 100vh;
+    padding-bottom: 30px;
     background-image: url(../../img/background.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -26,6 +26,7 @@
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-content: center; 
     align-items: center;
 }
 .logo {
@@ -35,6 +36,7 @@
     height:40px;
 }
 /* main */
+
 .main-title {
 font-size: 60px;
 text-transform: uppercase;
@@ -45,7 +47,6 @@ letter-spacing: -4px;
 }
 
 /* footer */
-
 footer.container {
 padding-top: 0;
 }
@@ -54,7 +55,7 @@ footer > .row {
 }
 .socials {
     text-align: center;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
     padding: 10px;
     display: flex;
     justify-content: center;
