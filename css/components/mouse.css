@@ -18,20 +18,20 @@
     background-color: #fff;
     border-radius: 0.5em;
     animation-name: scroll;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 @keyframes scroll {
     0% {
-        top: 2.5em;
-        background-color: #fff;
+        transform: translate(-50%, ) ;
+        opacity: 1;
     }
     50% {
        
-        background-color: #fff;
+        opacity: 1;
     }
     100% {
-        top: 7.5em;
-        background-color: transparent;
+        transform: translate(-50%, 330%);
+        opacity: 0;
     }
 }
