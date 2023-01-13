@@ -21,7 +21,6 @@
     gap: 20px;
     width: 50%;
 }
-
 .container > .columns > .rigth-column {
    width: 40%;
 }
@@ -31,29 +30,24 @@
     margin-left: calc(50% - 400px);
     }
 }
-
 @media(max-width: 900px) {
     .container > .row {
     width: 600px;
     margin-left: calc(50% - 300px);}
 
-
-    .container > .columns{
+    .container > .columns {
     flex-direction: column;
     gap: 60px;}
 
     .container > .columns > .column {
     width: 100%;}
 }
-    
 @media(max-width: 640px) {
     .container {
     padding-left: 20px;
-    padding-right: 20px;
-    }
+    padding-right: 20px;}
     .container > .row,
     .container > .short-row  {
     width: 100%;
-    margin-left: 0;
-}
+    margin-left: 0;}
 }
