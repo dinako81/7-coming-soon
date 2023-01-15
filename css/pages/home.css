@@ -42,6 +42,8 @@
 font-size: 60px;
 text-transform: uppercase;
 letter-spacing: -4px;
+word-spacing: 10px;
+
 }
 .main-description {
     font-size: 18px ;
